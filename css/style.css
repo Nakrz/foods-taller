@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:'poppins',sans-serif;
+    background-color: #1e1d2b;
+}
+
+.titulo1{
+    display: flex;
+    margin: 1px;
+    align-items: center;
+    color: #ff702a;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+
+a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+a:hover{
+    color: #ff702a;
+    border: #ff702a;
+    background-color: #fff;
+    transition: background-color 0.5s;
+    
+}
+.titulo2{
+
+    font-size: 90px;
+    padding-top: 3rem;
+    color: #ff702a; 
+    text-align: left;
+}
+.parrafo1{
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    bottom:80px;
+    
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15%;
+    padding-top: 9px;
+}
+.main-items{
+    display: grid;
+    grid-template-rows: 1fr 90px 1fr;
+
+}
+.orangeBox{
+    
+    font-size: 20px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    border: 2px solid none;
+    background-color: #ff702a;   
+    border-radius: 5px;
+    width:200px ;
+    height: 25px;
+    position: relative;
+    bottom:60px;
+}
+
+.bigburger{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30px;
+}
+.aboutTexto{
+    
+    color: #fff;
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 25px;
+    
+}
+.subtitulo
+{
+    margin: 0 20px;
+    width: 750px;
+    font-weight: 500;
+    color: #ff7143;
+    font-size: 30px;
+}
+.subtitulo2
+{
+    color: white;
+    margin: 0 20px;
+    font-size: 70px;
+    font-weight: 500;
+    width: 700px;
+}
+
+
+/*tercera pagina*/
+
+
+.fMenu{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 870px;
+    color: #ff702a
+}
+.fSubtitle{
+    text-align: left;
+    padding-left: 510px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 500;
+    
+}
+.info3{
+    display: grid;
+    grid-template-rows: 60px 85px 1fr;
+}
+.tdContainer{
+    min-height:300px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+.item{
+    background-color: #ffefe8;
+    border: double rgb(5, 5, 5);
+    width: 0px;
+    height: 170px;
+    margin: 35px;
+    border-radius: 15px;     
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 14%;
+    justify-content: center;
+    align-items: center;
+
+}
+.pic3{
+    
+    background-color: #ffefe8;
+    display: block;
+    margin: 0 auto;
+    width: 450;
+    height: 450;
+    align-items: center;
+    position: relative;
+    bottom:100px;
+
+}
+.iFood{
+    background-color: #ffefe8;
+}
+
+.cMenu1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffefe8;
+    position: relative;
+    bottom:50px;
+}
+.cMenu2{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffefe8;
+    position: relative;
+    bottom:40px;
+
+}
+.cMenu3{
+    font-size: 20px;
+    color: #ff702a;
+    display: flex;
+    justify-content: center;
+    background-color: #ffefe8;
+    position: relative;
+    bottom:20px;
+}
+
+/* cuarta pagina */
+
+
+.serviceContainer{
+    text-align: center;
+    margin: 50px auto;
+    display: flex;
+}
+
+.serviceCont
+{
+    text-align: center;
+    margin: 200px 100px;
+    width: 90%;
+}
+.sTitle
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ff7143;
+}
+.sSubtitle
+{
+    text-align: center;
+    margin: 10px;
+    font-size: 70px;
+    font-weight: 500;
+    color: #fff;
+}
+.sText
+{
+    display: grid;
+    gap: 3rem;
+    font-size: 25px;
+    margin: 0 70px 0 70px;
+    color: #fff;
+}
+.sSubtitle1
+{
+    text-align: center;
+    font-size: 25px;
+    color: #ff7143;
+}
+.sText img
+{
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* quinta hoja */
+
+
+.finalBox {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffefe8;
+    padding: 5rem;
+    border: double 10px
+}
+
+.fiveT{
+    background-color: #ffefe8;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.learnBt{
+    font-size: 20px;
+    color:#fff;
+    display: flex;
+    text-align: center;
+    border: 3px solid none;
+    background-color: #ff702a;   
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 200px;
+    position: relative;
+    bottom:80px;
+}
+
+
+/* hoja final */
+
+.footerCC {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerTitle {
+    color: #fff;
+    border-bottom: 3px solid #ff702a
+
+}
+
+.subFooter {
+    padding-top: 3rem;
+}
+
+.footerList {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.fText {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.titleF{
+    color: #fff;
+    border-bottom: 3px solid #ff702a;
+    padding-bottom: 25px;
+    
+}
+
+.ccUS {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.circle {
+    background-color: #ff702a;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .nav_list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav_link {
+        font-size: 16px;
+    }
+
+    .titulo2 {
+        font-size: 60px;
+    }
+
+    .parrafo1 {
+        font-size: 18px;
+        bottom: 40px;
+    }
+
+    .orangeBox {
+        font-size: 14px;
+    }
+
+    .bigburger img {
+        max-width: 700%;
+        height: auto;
+    }
+
+    .aboutTexto {
+        font-size: 18px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        position: absolute;
+        bottom: 200px;
+        width: auto;
+    }
+
+    .subtitulo2 {
+        font-size: 40px;
+        width: auto;
+    }
+
+    .fMenu {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .fSubtitle {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    .info3 {
+        grid-template-rows: auto;
+    }
+
+    .pic3 {
+        width: 100px;
+        height: 100px;
+        bottom: 20px;
+    }
+
+    .cMenu1,
+    .cMenu2,
+    .cMenu3 {
+        font-size: 20px;
+        bottom: 50px;
+    }
+
+    .serviceContainer{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .sTitle {
+        font-size: 20px;
+    }
+
+    .sSubtitle {
+        font-size: 50px;
+    }
+
+    .sText {
+        margin: 0 20px;
+        font-size: 18px;
+    }
+
+    .sText img {
+        max-width: 200px;
+    }
+
+    .finalBox {
+        width: 60%;
+        padding: 3rem;
+    }
+
+    .fiveT {
+        font-size: 40px;
+    }
+
+    .learnBt {
+        font-size: 16px;
+        padding-left: 100px;
+        bottom: 60px;
+    }
+
+    .subFooter {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+      }
+      
+
+    .footerTitle {
+        font-size: 5px;
+    }
+
+    .infoList a {
+        font-size: 20px;
+    }
+
+    .titleF {
+        font-size: 20px;
+    }
+}
